@@ -1,6 +1,5 @@
-temp/
-docs/
-manual/*.pdf
+node_modules/
+.idea/
 .vscode/
-*.doc
-*.txt
+.DS_Store
+.vscode/
