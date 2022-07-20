@@ -1,0 +1,5 @@
+temp/
+docs/
+manual/*.pdf
+*.doc
+*.txt

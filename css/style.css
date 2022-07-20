@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.carousel {
+    margin: 20px auto;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.carousel div {
+    display: flex;
+    width: 200%;
+    animation: carousel 5s linear infinite;
+}
+
+.carousel span {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel img {
+    width: 20%;
+}
+
+.carousel:hover div {
+    animation-play-state: paused;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
